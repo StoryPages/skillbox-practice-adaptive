@@ -1,0 +1,343 @@
+@media(max-width: 900px) {
+
+    /* hero */
+    .hero-container {
+        padding-bottom: 135px;
+        background-image: url('../img/svg/bc-hero-768.svg');
+        background-position: top 117px right 15px;
+    }
+
+    .hero-wrapper {
+        gap: 10px;
+    }
+
+    .hero-heading {
+        margin-bottom: 7px;
+        font-size: 50px;
+    }
+
+    .hero-descr {
+        margin-bottom: 52px;
+        width: 93%;
+    }
+
+    /* advantages */
+    .advantages-container {
+        padding-bottom: 74px;
+    }
+
+    .advantages-wrapper {
+        padding-left: 255px;
+        background-size: 211px;
+        background-position: left 15px top 24px;
+    }
+
+    .advantages-heading {
+        width: 81%;
+    }
+
+    .advantages-descr {
+        width: 100%;
+    }
+
+    .advantages-wrap {
+        padding: 95px 0 0 0;
+        background-position: left top 3px;
+    }
+
+    /*teachers*/
+    .teachers__container {
+        padding-bottom: 27px;
+    }
+
+    .teachers__heading {
+        margin-bottom: 22px;
+    }
+
+    .teachers-item {
+        padding-bottom: 21px;
+    }
+
+    /* courses */
+    .courses__container {
+        padding-bottom: 50px;
+    }
+
+    .courses-timelesson {
+        right: 10px;
+    }
+
+    .courses-item {
+        padding-bottom: 28px;
+    }
+
+    .courses-inner {
+        gap: 28px;
+    }
+
+    .courses-inner__btn {
+        padding: 20px 56px;
+    }
+}
+
+@media(max-width: 767px) {
+    .hero-container {
+        background: none;
+    }
+
+    .header__wrapper {
+        gap: 30px;
+    }
+
+    .header-logo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header__nav {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .courses-inner__btn {
+        padding: 20px 48px
+    }
+}
+
+@media(max-width: 590px) {
+    .header {
+        padding-bottom: 28px;
+    }
+
+    .header__logo {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .header-list {
+        width: 100%;
+        gap: 56px;
+    }
+
+    /* hero */
+    .hero {
+        background: radial-gradient(49% 49% at 67.78% 84.57%, #555681 0%, #2E2B44 100%);
+    }
+
+    .hero-container {
+        padding-top: 77px;
+        background: none;
+    }
+
+    /*advantages*/
+    .advantages-container {
+        padding-bottom: 54px;
+    }
+
+
+    .advantages-wrapper {
+        padding-left: 36%;
+        background-position: top left 4%;
+        background-size: 28%;
+    }
+
+    /* teachers */
+    .teachers__container {
+        padding-bottom: 51px;
+    }
+
+    /* courses */
+    .courses-item {
+        padding-bottom: 27px;
+    }
+
+    .courses-inner {
+        min-height: 473px;
+    }
+
+    .courses-inner__btn {
+        padding: 20px 48px;
+    }
+
+    .courses-child__heading {
+        width: 195px;
+    }
+}
+
+@media(max-width: 575px) {
+    .advantages-container {
+        padding-bottom: 50px;
+    }
+
+    .advantages-wrap {
+        padding: 25px 0 30px 120px;
+    }
+
+    .advantages-item__descr {
+        width: 82%;
+    }
+
+    .teachers-picture__img {
+
+        border-radius: 60px 60px 0 0;
+    }
+
+    .courses-timelesson {
+        right: 20px;
+    }
+}
+
+@media(max-width: 500px) {
+    .header__nav {
+        overflow-x: scroll;
+        min-height: 30px;
+        align-items: center;
+        margin-right: -15px;
+    }
+
+    .header__nav::-webkit-scrollbar {
+        width: 0;
+        padding: 0;
+    }
+
+    .advantages-wrapper {
+        padding-left: 15px;
+        background: none;
+    }
+
+    .advantages-list{
+        gap: 10px;
+    }
+
+
+}
+
+@media(max-width: 400px) {
+    /* header */
+    .header {
+        max-height: 118px;
+        padding-top: 23px;
+        padding-bottom: 8px;
+    }
+
+    .header__wrapper {
+        gap: 22px;
+    }
+
+    .header__nav {
+        overflow-x: scroll;
+        min-height: 30px;
+        align-items: center;
+        margin-right: -15px;
+        /* margin-left: -15px; */
+    }
+
+    .header__nav::-webkit-scrollbar {
+        width: 0;
+        padding: 0;
+    }
+
+    /* hero */
+    .hero-container {
+        padding-top: 50px;
+        padding-bottom: 51px;
+    }
+
+    .hero-wrapper {
+        gap: 5px;
+    }
+
+    .hero-heading {
+        margin: 0;
+        font-size: 30px;
+    }
+
+    .hero-descr {
+        width: 100%;
+        margin-bottom: 40px;
+        font-size: 16px;
+        line-height: 130%;
+    }
+
+    .hero-btn {
+        padding: 20px 54px;
+        font-size: 16px;
+    }
+
+    /* advantages */
+    .advantages-container {
+        padding-top: 50px;
+        padding-bottom: 24px;
+    }
+
+    .advantages-wrapper {
+        padding: 0 15px 0 15px;
+        background: none;
+        gap: 2px;
+    }
+
+    .advantages-heading {
+        width: 100%;
+        font-size: 20px;
+        line-height: 130%
+    }
+
+    .advantages-wrap {
+        min-height: 80px;
+        padding: 5px 0 18px 110px;
+    }
+
+    .advantages-list{
+        gap: 10px;
+    }
+
+    .advantages-item__descr {
+        width: 100%;
+    }
+
+    /* teachers */
+    .teachers__container {
+        padding-top: 46px;
+        padding-bottom: 23px;
+    }
+
+    .teachers__heading {
+        font-size: 20px;
+        margin-bottom: 28px;
+    }
+
+    .teachers-picture__img {
+        border-radius: 21px 21px 0 0;
+    }
+
+    /* courses */
+    .courses__container {
+        padding-top: 46px;
+        padding-bottom: 19px;
+    }
+
+    .courses__heading {
+        font-size: 20px;
+        margin-bottom: 27px;
+    }
+
+    .courses-inner {
+        padding: 30px 30px 33px 30px;
+    }
+
+    .courses-child {
+        gap: 6px;
+    }
+
+    .courses-child__heading {
+        line-height: 130%;
+    }
+
+    .courses-inner__btn {
+        padding: 20px 56px;
+    }
+
+    .courses-timelesson {
+        right: 10px;
+    }
+}
